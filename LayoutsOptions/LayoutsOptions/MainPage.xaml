@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:LayoutsOptions"
+             x:Class="LayoutsOptions.MainPage">
+
+    <StackLayout Orientation="Horizontal">
+        <Button x:Name="btnFill"
+                Text="Fill"
+                FontAttributes="Bold"
+                BackgroundColor="Aqua"
+                FontSize="Large"
+                TextColor="Blue"
+                VerticalOptions="Fill"
+               />
+
+
+        <Button x:Name="btnStart"
+                Text="Start"
+                FontAttributes="Bold"
+                BackgroundColor="Yellow"
+                FontSize="Large"
+                TextColor="blue"
+                VerticalOptions="Start"
+               />
+        <Button x:Name="btnCenter"
+                Text="Center"
+                FontAttributes="Bold"
+                BackgroundColor="Gray"
+                FontSize="Large"
+                TextColor="blue"
+                VerticalOptions="Center"
+               />
+        <Button x:Name="btnEnd"
+                Text="End"
+                FontAttributes="Bold"
+                BackgroundColor="BlueViolet"
+                FontSize="Large"
+                TextColor="blue"
+                VerticalOptions="End"
+               />
+
+
+    </StackLayout>
+
+</ContentPage>
